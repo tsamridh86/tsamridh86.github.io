@@ -1,3 +1,12 @@
 .adjust-size{
 	font-size : 14px;
 }
+
+.bio-div{
+	display: block;
+}
+
+.project{
+	border : 2px solid #33FF00;
+	border-radius: 10px;
+}
