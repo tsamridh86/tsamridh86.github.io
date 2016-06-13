@@ -9,6 +9,8 @@
 .project{
 	border : 2px solid #33FF00;
 	border-radius: 10px;
+	margin : 5px;
+	padding: 5px;
 }
 
 .project a {
@@ -16,7 +18,7 @@
 	font-size: 18px;
 }
 
-.project p {
+.project p , .project p > a {
 	font-family: "Ubuntu";
 	font-size: 15px;
 }
