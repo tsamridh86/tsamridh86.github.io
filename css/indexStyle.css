@@ -10,3 +10,13 @@
 	border : 2px solid #33FF00;
 	border-radius: 10px;
 }
+
+.project a {
+	font-family: "Open Sans";
+	font-size: 18px;
+}
+
+.project p {
+	font-family: "Ubuntu";
+	font-size: 15px;
+}
