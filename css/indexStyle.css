@@ -1,3 +1,6 @@
+body{
+	background-color: orange;
+}
 .adjust-size{
 	font-size : 14px;
 }
@@ -11,6 +14,9 @@
 	display: none;
 }
 
+.main{
+	background: khaki;
+}
 .project{
 	border : 2px solid #33FF00;
 	border-radius: 10px;

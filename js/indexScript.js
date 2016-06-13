@@ -4,6 +4,8 @@ function displayProject()
 	document.getElementById('bio').style.display = 'none';
 	document.getElementById('nav-pro').className = 'active';
 	document.getElementById('nav-bio').className = '';
+	document.body.style.backgroundColor = 'purple';
+	
 }
 
 function displayBio()
@@ -12,4 +14,7 @@ function displayBio()
 	document.getElementById('bio').style.display = 'block';
 	document.getElementById('nav-pro').className = '';
 	document.getElementById('nav-bio').className = 'active';
+	document.body.style.backgroundColor = 'orange';
+
+	
 }
