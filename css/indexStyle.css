@@ -2,8 +2,13 @@
 	font-size : 14px;
 }
 
-.bio-div{
+#bio{
 	display: block;
+}
+
+#project-holder
+{
+	display: none;
 }
 
 .project{
