@@ -33,3 +33,17 @@ body{
 	font-family: "Ubuntu";
 	font-size: 15px;
 }
+
+.hover{
+	display: none;
+	position: absolute;
+	left: -500%;
+	z-index: 4;
+}
+
+.hoverLink:hover + .hover {
+	display: block;
+}
+.hoverLink:hover + .hover:hover {
+	display: block;
+}
