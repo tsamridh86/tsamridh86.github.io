@@ -5,6 +5,10 @@ body{
 	font-size : 14px;
 }
 
+.main {
+	background: white;
+}
+
 #bio{
 	display: block;
 }
