@@ -67,3 +67,7 @@ body{
 .innerText{
 	padding-left: 10px;
 }
+
+nav {
+	cursor: pointer;
+}
