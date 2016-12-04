@@ -1,7 +1,6 @@
 <!doctype html>
 <title>Samridh's Page</title>
 <head>
-	
 	<!-- jQuery -->
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 	<!-- Latest compiled and minified CSS -->
@@ -18,97 +17,113 @@
 	<link rel="stylesheet" href="css/circle.css">
 </head>
 <body>
-	<div class="container back">
-		<div class="page-header">
-			<h1>Samridh Tuladhar<br> <small class = "adjust-size">Student at S.V. National Institute of Techonology, Surat</small></h1>
-			<nav class="navbar navbar-default">
-				<div class="navbar-header">
-					<a class="navbar-brand">About Me : </a>
-				</div>
-				
-				<ul class="nav navbar-nav">
-					
-					<li id = "nav-bio" class="active"><a onclick="displayBio();">Bio</a></li>
-					<li id = "nav-pro"><a onclick="displayProject();">Projects</a></li>
-				</ul>
-			</nav>
+<div class="pageHeader">
+<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+<a href="https://github.com/tsamridh86">
+	<img src="images/me.jpg" class = "img-responsive img-circle">
+</a>
+</div>
+<span class="nameHolder">Samridh Tuladhar</span>
+<br>
+<small class = "adjust-size">Student at S.V. National Institute of Techonology, Surat</small>
+<br>
+<small class="adjust-size"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>  t.samridh.86@gmail.com</small>
+</div>
+<div class="container-fluid">
+<div class="row">
+<div class="col-xs-11 col-sm-11 col-md-11 col-lg-11">
+	<nav class="navbar navbar-default">
+		<div class="navbar-header">
+			<a class="navbar-brand">About Me : </a>
 		</div>
-		<div id="bio">
-			<div class="row">
-				<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
-					<a href="https://github.com/tsamridh86"><img src="images/me.jpg" class = "img-responsive img-circle"></a>
-				</div>
-				<div class="col-xs-10 col-sm-10 col-md-10 col-lg-10 bio-text">
-					<p class="header">Summary</p>
-					<p class="innerText">Born in 1996 in Kathmandu, Nepal.</p>
-					<p class="innerText">I've always been a guy enthusiastic in the field of enginnering & computer is one I'm good at.</p>
-					<p class="header">Educational Qualifications</p>
-					<div class="table table-responsive">
-						<table class="align" width="100%">
-							<tr>
-								<td><div class="c100 p86 center">
-									<span>8.6</span>
-									<div class="slice">
-										<div class="bar"></div>
-										<div class="fill"></div>
-									</div>
-								</div></td>
-								<td><div class="c100 p78 center green" >
-									<span>78%</span>
-									<div class="slice">
-										<div class="bar"></div>
-										<div class="fill"></div>
-									</div>
-								</div></td>
-								<td><div class="c100 p87 orange center" >
-									<span>8.77</span>
-									<div class="slice">
-										<div class="bar"></div>
-										<div class="fill"></div>
-									</div>
-								</div></td>
-							</tr>
-							<tr>
-								<td><b>10</b><sup>th</sup></td>
-								<td><b>12</b><sup>th</sup></td>
-								<td><b>B.Tech.</b></td>
-							</tr>
-							<tr>
-								<td><b>Moden Indian School</b>, Kathmandu</td>
-								<td><b>Moden Indian School</b>, Kathmandu</td>
-								<td><b>S. V. National Institute of Techonology</b>, Surat</td>
-							</tr>
-							<tr>
-								<td>Graduation : <b>2012</b></td>
-								<td>Graduation : <b>2014</b></td>
-								<td>Graduation : <b>2018</b></td>
-							</tr>
-						</table>
-					</div>
-					<p class="header">Experience</p>
-					<div class="table responsive"></div>
-					<table class="table table-striped">
-						<thead>
-							<tr>
-								<th>Company Name</th>
-								<th>Role</th>
-								<th>Time</th>
-								<th>Duration</th>
-							</tr>
-						</thead>
-						<tbody>
-							<tr>
-								<td ><a href="http://www.jnt.com.np">J & T Associates Pvt. Ltd.</a></td>
-								<td >Intern (Web Developer)</td>
-								<td >45 days</td>
-								<td >mid-May 2016 to June 2016</td>
-							</tr>
-						</tbody>
-					</table>
-				</div>
+		<ul class="nav navbar-nav">
+			<li id = "nav-bio" class="active"><a onclick="displayBio();">Bio</a></li>
+			<li id = "nav-pro"><a onclick="displayProject();">Projects</a></li>
+		</ul>
+	</nav>
+</div>
+</div>
+</div>
+<div id="bio">
+<table class="table table-striped">
+<tbody>
+	<tr>
+		<td class="leftSide">
+			<p class="header"> Summary <span class="glyphicon glyphicon-chevron-right pull-right" aria-hidden="true"></span></p>
+		</td>
+		<td class="rightSide">
+			<p class="innerText">Born in 1996 in Kathmandu, Nepal.</p>
+			<p class="innerText">I've always been a guy enthusiastic in the field of enginnering & computer is one I'm good at.</p>
+		</td>
+	</tr>
+	<tr>
+		<td class="leftSide">
+			<p class="header">Educational<span class="glyphicon glyphicon-chevron-right pull-right" aria-hidden="true"></span><br>Qualifications </p>
+		</td>
+		<td class="rightSide">
+			<div class="table table-responsive">
+				<table class="align" width="100%">
+					<tr>
+						<td><div class="c100 p86 center">
+							<span>8.6</span>
+							<div class="slice">
+								<div class="bar"></div>
+								<div class="fill"></div>
+							</div>
+						</div></td>
+						<td><div class="c100 p78 center green" >
+							<span>78%</span>
+							<div class="slice">
+								<div class="bar"></div>
+								<div class="fill"></div>
+							</div>
+						</div></td>
+						<td><div class="c100 p87 orange center" >
+							<span>8.77</span>
+							<div class="slice">
+								<div class="bar"></div>
+								<div class="fill"></div>
+							</div>
+						</div></td>
+					</tr>
+					<tr>
+						<td><b>10</b><sup>th</sup></td>
+						<td><b>12</b><sup>th</sup></td>
+						<td><b>B.Tech.</b></td>
+					</tr>
+					<tr>
+						<td><b>Moden Indian School</b>, Kathmandu</td>
+						<td><b>Moden Indian School</b>, Kathmandu</td>
+						<td><b>S. V. National Institute of Techonology</b>, Surat</td>
+					</tr>
+					<tr>
+						<td>Graduation : <b>2012</b></td>
+						<td>Graduation : <b>2014</b></td>
+						<td>Graduation : <b>2018</b></td>
+					</tr>
+				</table>
 			</div>
-		</div>
-		<div id="project-holder">
+		</td>
+	</tr>
+	<tr>
+		<td class="leftSide">
+			<p class="header">Experience<span class="glyphicon glyphicon-chevron-right pull-right" aria-hidden="true"></span></p>
+		</td>
+		<td>
+			<p><a href="http://www.jnt.com.np">J & T Associates Pvt. Ltd.</a> - Intern as Web Developer from mid-May 2016 to June 2016, (45 days)</p>
+		</td>
+	</tr>
+</tbody>
+</table>
+</div>
+<div id="project-holder">
+<table class="table table-striped">
+<tbody>
+	<tr>
+		<td class="leftSide">
+			<p class="header"> Web Development <span class="glyphicon glyphicon-chevron-right pull-right" aria-hidden="true"></span></p>
+		</td>
+		<td class="rightSide">
 			<div class="project">
 				<div class="row">
 					<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
@@ -169,7 +184,7 @@
 						<a href="https://github.com/tsamridh86/onlineShopping">Online Shopping Website</a><br>
 						<p> Online Shopping Website having basic CMS features</p>
 						<p> Languages Used : HTML, CSS, PHP, MySQL, Bootstrap </p>
-						<p> Other Contributors : <a href="#"> Rewoti Maharjan </a> </p>
+						<p> Other Contributors : <a href="https://github.com/rewotim"> Rewoti Maharjan </a> </p>
 					</div>
 					<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
 						<a class = "hoverLink" href="images/shopping.jpg"> View snapshot </a>
@@ -189,26 +204,12 @@
 			<div class="project">
 				<div class="row">
 					<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
-						<img src="http://vignette1.wikia.nocookie.net/requiemforkingsmouth/images/d/de/Hangman.jpg/revision/latest?cb=20140411083845" height="100">
+						<img src="http://developerbazaar.com/image/weblogo.png" height="100">
 					</div>
-					<div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
-						<a href="https://github.com/tsamridh86/hangmanMatlab">Hangman Game for MATLAB</a><br>
-						<p> Classic Hangman game using MATLAB (along with minor file management)</p>
-						<p> Languages Used : MATLAB</p>
-						<p> Other Contributors : <a href="https://github.com/rajul02"> Rajul Nahar </a> , <a href="https://github.com/aishuPanchal"> Aishwarya Panchal </a> </p>
-					</div>
-					<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
-						<a class = "hoverLink" href="images/hangman.jpg"> View snapshot </a>
-						<div class="hover"><img src="images/hangman.jpg" class="img-responsive"></div>
-						<br>
-						<br>
-						<a class="hoverLink" disabled> Progress :</a>
-						<div class="progress">
-							<div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="50"
-								aria-valuemin="0" aria-valuemax="100" style="width:100%">
-								100%
-							</div>
-						</div>
+					<div class="col-xs-10 col-sm-10 col-md-10 col-lg-10">
+						<a href="https://github.com/tsamridh86/tsamridh86.github.io">This website</a><br>
+						<p> Source code to this simple static HTML page</p>
+						<p> Languages Used : HTML, CSS, JavaScript</p>
 					</div>
 				</div>
 			</div>
@@ -261,15 +262,36 @@
 					</div>
 				</div>
 			</div>
+		</td>
+	</tr>
+	<tr>
+		<td class="leftSide">
+			<p class="header"> MATLAB <span class="glyphicon glyphicon-chevron-right pull-right" aria-hidden="true"></span></p>
+		</td>
+		<td class="rightSide">
 			<div class="project">
 				<div class="row">
 					<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
-						<img src="http://developerbazaar.com/image/weblogo.png" height="100">
+						<img src="http://vignette1.wikia.nocookie.net/requiemforkingsmouth/images/d/de/Hangman.jpg/revision/latest?cb=20140411083845" height="100">
 					</div>
-					<div class="col-xs-10 col-sm-10 col-md-10 col-lg-10">
-						<a href="https://github.com/tsamridh86/tsamridh86.github.io">This website</a><br>
-						<p> Source code to this simple static HTML page</p>
-						<p> Languages Used : HTML, CSS, JavaScript</p>
+					<div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
+						<a href="https://github.com/tsamridh86/hangmanMatlab">Hangman Game for MATLAB</a><br>
+						<p> Classic Hangman game using MATLAB (along with minor file management)</p>
+						<p> Languages Used : MATLAB</p>
+						<p> Other Contributors : <a href="https://github.com/rajul02"> Rajul Nahar </a> , <a href="https://github.com/aishuPanchal"> Aishwarya Panchal </a> </p>
+					</div>
+					<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+						<a class = "hoverLink" href="images/hangman.jpg"> View snapshot </a>
+						<div class="hover"><img src="images/hangman.jpg" class="img-responsive"></div>
+						<br>
+						<br>
+						<a class="hoverLink" disabled> Progress :</a>
+						<div class="progress">
+							<div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="50"
+								aria-valuemin="0" aria-valuemax="100" style="width:100%">
+								100%
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -298,6 +320,13 @@
 					</div>
 				</div>
 			</div>
+		</td>
+	</tr>
+	<tr>
+		<td class="leftSide">
+			<p class="header"> Android <span class="glyphicon glyphicon-chevron-right pull-right" aria-hidden="true"></span></p>
+		</td>
+		<td class="rightSide">
 			<div class="project">
 				<div class="row">
 					<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
@@ -321,7 +350,10 @@
 					</div>
 				</div>
 			</div>
-		</div>
-	</div>
+		</td>
+	</tr>
+</tbody>
+</table>
+</div>
 </body>
 </html>

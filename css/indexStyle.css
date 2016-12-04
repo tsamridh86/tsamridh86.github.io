@@ -1,13 +1,21 @@
-body{
-	background-color: orange;
-}
-.adjust-size{
-	font-size : 14px;
+.pageHeader {
+	padding: 10px;
+	background-color: #000000;
+	color: #ffffff	;
+	height:230px ;
 }
 
-.back {
-	background-color: white;
+.nameHolder{
+	font-size: 36px;
+	font-family: "Helvetica";
+	font-weight: bolder;
 }
+
+.adjust-size{
+	font-size : 14px;
+	color: #f0f0f0;
+}
+
 
 #bio{
 	display: block;
@@ -18,9 +26,6 @@ body{
 	display: none;
 }
 
-.main{
-	background: khaki;
-}
 .project{
 	border : 2px solid #33FF00;
 	border-radius: 10px;
@@ -51,14 +56,26 @@ body{
 .hoverLink:hover + .hover:hover {
 	display: block;
 }
-
-.header{
-	background: linear-gradient(#D1CBCA, white, #D1CBCA);
-	padding: 10px;
-	color: grey;
-	border-radius: 2px;
+.leftSide
+{
+	width: 30%;
 }
 
+.rightSide
+{
+	width: 70%;
+}
+
+.header{
+	padding: 10px;
+	color: black;
+	font-size: 36px;
+}
+
+.summary {
+	background-color: #f0f0f0;
+	height: 100px;
+}
 .bio-text{
 	background: #f3f3f3;
 	padding:0px;
