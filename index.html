@@ -39,6 +39,7 @@
 		<ul class="nav navbar-nav">
 			<li class="active navBarItems"><a onclick="displayCategory(0);">Bio</a></li>
 			<li class="navBarItems"><a onclick="displayCategory(1);">Projects</a></li>
+			<li class="navBarItems"><a onclick="displayCategory(2);"> < 10Kb Methods</a></li>
 		</ul>
 	</nav>
 </div>
@@ -354,6 +355,33 @@
 	</tr>
 </tbody>
 </table>
+</div>
+<div id = "smallProjects" class="category">
+<table class="table table-striped">
+<tbody>
+	<tr>
+		<td class="leftSide">
+			<p class="header"> Extended Euclid <span class="glyphicon glyphicon-chevron-right pull-right" aria-hidden="true"></span><br>Algorithm</p>
+		</td>
+		<td class="rightSide">
+			<div class="row">
+				<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+					<input type="number" id="extendedEuclidNum1" class="form-control">
+				</div>
+				<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+					<input type="number" id="extendedEuclidNum2" class="form-control"> 
+				</div>
+				<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">
+					<input type="submit" onclick="extendedEuclid();">
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+					<p id="extendedEuclidOutput"></p>
+				</div>
+			</div>
+		</td>
+	</tr>		
 </div>
 </body>
 </html>
