@@ -1,15 +1,19 @@
-function displayProject()
+function displayCategory(num)
 {
-	document.getElementById('project-holder').style.display = 'block';
-	document.getElementById('bio').style.display = 'none';
-	document.getElementById('nav-pro').className = 'active';
-	document.getElementById('nav-bio').className = '';
-}
-
-function displayBio()
-{
-	document.getElementById('project-holder').style.display = 'none';
-	document.getElementById('bio').style.display = 'block';
-	document.getElementById('nav-pro').className = '';
-	document.getElementById('nav-bio').className = 'active';
+	var allCategory = 	document.getElementsByClassName('category')
+	var nvItems = 		document.getElementsByClassName('navBarItems')
+	var size = allCategory.length
+	for(i = 0 ; i < size ; i++)
+	{
+		if(i == num)
+		{
+			allCategory[i].style.display = "block"
+			nvItems[i].className = "active navBarItems"
+		}
+		else
+		{
+			allCategory[i].style.display = "none"
+			nvItems[i].className = "navBarItems"
+		}
+	}
 }

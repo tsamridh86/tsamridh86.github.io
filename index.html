@@ -37,14 +37,14 @@
 			<a class="navbar-brand">About Me : </a>
 		</div>
 		<ul class="nav navbar-nav">
-			<li id = "nav-bio" class="active"><a onclick="displayBio();">Bio</a></li>
-			<li id = "nav-pro"><a onclick="displayProject();">Projects</a></li>
+			<li class="active navBarItems"><a onclick="displayCategory(0);">Bio</a></li>
+			<li class="navBarItems"><a onclick="displayCategory(1);">Projects</a></li>
 		</ul>
 	</nav>
 </div>
 </div>
 </div>
-<div id="bio">
+<div id="bio" class="category">
 <table class="table table-responsive table-striped ">
 <tbody>
 	<tr>
@@ -116,7 +116,7 @@
 </tbody>
 </table>
 </div>
-<div id="project-holder">
+<div id="project-holder" class="category">
 <table class="table table-striped">
 <tbody>
 	<tr>
