@@ -26,6 +26,11 @@
 	display: none;
 }
 
+#smallProjects
+{
+	display: none;
+}
+
 .project{
 	border : 2px solid #33FF00;
 	border-radius: 10px;
