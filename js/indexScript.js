@@ -42,3 +42,21 @@ function extendedEuclid()
 	var out = eEuclid(num1, num2);
 	document.getElementById('extendedEuclidOutput').innerHTML = "GCD : "+ out[2] +"<br>" + out[2] + " = " + num1 + "*" + out[0] + " + " + num2 + " * " + out[1];
 }
+
+//square and multiply method
+function squareAndMultiply()
+{
+	var a = document.getElementById("squareAndMultiplyA").value;
+	var bi = document.getElementById("squareAndMultiplyB").value;
+	var n = document.getElementById("squareAndMultiplyN").value;
+	b = (parseInt(bi,10)).toString(2);
+	var d = 1;
+	for (var i = 0 ; i < b.length; i++)
+	{
+		d = (d*d)%n;
+		if (b[i]==1)
+		 d = (d * a)%n;
+		 
+	}
+	document.getElementById('squareAndMultiplyOutput').innerHTML =  a + "<sup>" + bi + "</sup> mod " + n  + " = " + d;
+}

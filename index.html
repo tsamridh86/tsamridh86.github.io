@@ -39,7 +39,7 @@
 		<ul class="nav navbar-nav">
 			<li class="active navBarItems"><a onclick="displayCategory(0);">Bio</a></li>
 			<li class="navBarItems"><a onclick="displayCategory(1);">Projects</a></li>
-			<li class="navBarItems"><a onclick="displayCategory(2);"> < 10Kb Methods</a></li>
+			<li class="navBarItems"><a onclick="displayCategory(2);"> < 10KB Methods</a></li>
 		</ul>
 	</nav>
 </div>
@@ -357,6 +357,7 @@
 </table>
 </div>
 <div id = "smallProjects" class="category">
+<p class="innerText">These modules are designed to compute mathematical algorithms & are targeted to be less than 10KB in size.</p>
 <table class="table table-striped">
 <tbody>
 	<tr>
@@ -364,22 +365,52 @@
 			<p class="header"> Extended Euclid <span class="glyphicon glyphicon-chevron-right pull-right" aria-hidden="true"></span><br>Algorithm</p>
 		</td>
 		<td class="rightSide">
-			<div class="row">
-				<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
-					<input type="number" id="extendedEuclidNum1" class="form-control">
-				</div>
-				<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
-					<input type="number" id="extendedEuclidNum2" class="form-control"> 
-				</div>
-				<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">
-					<input type="submit" onclick="extendedEuclid();">
-				</div>
+		<div class="container-fluid">
+		<div class="row">
+			<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+				<input type="number" id="extendedEuclidNum1" class="form-control">
 			</div>
-			<div class="row">
-				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-					<p id="extendedEuclidOutput"></p>
-				</div>
+			<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+				<input type="number" id="extendedEuclidNum2" class="form-control"> 
 			</div>
+			<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">
+				<input type="submit" onclick="extendedEuclid();">
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-xs-10 col-sm-10 col-md-10 col-lg-10">
+				<p id="extendedEuclidOutput"></p>
+			</div>
+		</div>
+		</div>
+		</td>
+	</tr>
+	<tr>
+		<td class="leftSide">
+			<p class="header"> Square & <span class="glyphicon glyphicon-chevron-right pull-right" aria-hidden="true"></span><br>Multiply Method</p>
+		</td>
+		<td class="rightSide">
+		<div class="container-fluid">
+		<div class="row">
+			<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+				<input type="number" id="squareAndMultiplyA" class="form-control">
+			</div>
+			<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+				<input type="number" id="squareAndMultiplyB" class="form-control"> 
+			</div>
+			<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+				<input type="number" id="squareAndMultiplyN" class="form-control"> 
+			</div>
+			<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">
+				<input type="submit" onclick="squareAndMultiply();">
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-xs-11 col-sm-11 col-md-11 col-lg-11">
+				<p id="squareAndMultiplyOutput"></p>
+			</div>
+		</div>
+		</div>
 		</td>
 	</tr>		
 </div>
