@@ -1,5 +1,3 @@
-import CakeIcon from '@mui/icons-material/Cake';
-
 const nameStyle = {
 	fontSize: "3em",
 	fontFamily: "Roboto",
